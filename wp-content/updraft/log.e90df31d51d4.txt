@@ -1,0 +1,153 @@
+0000.001 (0) Opened log file at time: Fri, 30 Jul 2021 09:01:55 +0000 on http://localhost/wordpress
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.8 PHP: 7.1.9 (apache2handler, Windows NT DESKTOP-3DFOI10 10.0 build 19041 (Windows 10) AMD64) MySQL: 5.7.19 (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.27 (Win64) PHP/7.1.9 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 45.5M | 10M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 160873.8 MB
+0000.015 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.020 (0) Semaphore (fd, wp_options) being initialised
+0000.030 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.040 (0) Set semaphore last lock (fd) time to 2021-07-30 09:01:55
+0000.043 (0) Semaphore lock (fd) complete
+0000.052 (0) Backup run: resumption=0, nonce=e90df31d51d4, file_nonce=e90df31d51d4 begun at=1627635715 (0s ago), job type=backup
+0000.058 (0) Scheduling a resumption (1) after 300 seconds (1627636015) in case this run gets aborted
+0000.076 (0) Checking if we have a zip executable available
+0000.083 (0) Creation of backups of directories: beginning
+0000.096 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.721 (0) Total entities for the zip file: 225 directories, 1411 files (0 skipped as non-modified), 22.3 MB
+0000.866 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.914 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.969 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.016 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.065 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.114 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.160 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.209 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.259 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.316 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.320 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.1 MB, 1411 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.572 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 1100 files added (on-disk size: 6012.1 KB)
+0003.616 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 1200 files added (on-disk size: 6012.1 KB)
+0003.656 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 1300 files added (on-disk size: 6012.1 KB)
+0003.696 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip.tmp: 1400 files added (on-disk size: 6012.1 KB)
+0004.143 (0) Created plugins zip (0) - 6703.3 KB in 4 s (1659.1 KB/s) (sha1: 20bbe9749fbc5d6ac6c0cbb767d05237401066a0, sha256: 6ad25888a1f7964ca36106dbaada0d8ad48146866c81e017e9d6b4a43094d272)
+0004.153 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.331 (0) Total entities for the zip file: 92 directories, 346 files (0 skipped as non-modified), 6.5 MB
+0005.793 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.235 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 129 (129) files added so far); re-opening (prior size: 0 KB)
+0007.751 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-themes.zip.tmp: 200 files added (on-disk size: 1177.9 KB)
+0008.546 (0) Zip: backup_2021-07-30-1101_boulangerie_e90df31d51d4-themes.zip.tmp: 300 files added (on-disk size: 1177.9 KB)
+0009.369 (0) Created themes zip (0) - 4126.4 KB in 5.2 s (792.1 KB/s) (sha1: 875f9786bf0b677bc12ca6908b1e7ddc30e45f4d, sha256: 99e877a0490c32d97acef1643c51f37827ec95e424f24572439ee1a12c61dfdd)
+0009.379 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.383 (0) Looking for candidates to backup in: C:\wamp64\www\wordpress/wp-content/uploads
+0009.386 (0) finding files: 2021: adding to list (1)
+0009.390 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.401 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0009.422 (0) Created uploads zip (0) - 0.2 KB in 0 s (8.9 KB/s) (sha1: 2164bfb702ceb310057161c8fc3b709171331f06, sha256: 52c6950b79e12f6a8e32a55ec3d8fc96867dd7ada70abbc6e481ccd5fa51c765)
+0009.432 (0) Beginning backup of other directories found in the content directory (index: 0)
+0009.436 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0009.439 (0) Looking for candidates to backup in: C:\wamp64\www\wordpress/wp-content
+0009.442 (0) finding files: index.php: adding to list (1)
+0009.446 (0) finding files: languages: adding to list (2)
+0009.449 (0) finding files: plugins: skipping: this is the plugins directory
+0009.452 (0) finding files: themes: skipping: this is the themes directory
+0009.456 (0) finding files: updraft: skipping: this is the updraft directory
+0009.459 (0) finding files: upgrade: skipping: excluded by options
+0009.462 (0) finding files: uploads: skipping: this is the uploads directory
+0009.500 (0) Total entities for the zip file: 3 directories, 73 files (0 skipped as non-modified), 3.2 MB
+0010.255 (0) Created others zip (0) - 925.3 KB in 0.8 s (1175.8 KB/s) (sha1: a12ae72aa413f3ae8291dcbbbcce9c3ca29c59a6, sha256: ea074a6ab41c182a4430b353f263e03b7b078dc465d8dd43aac70c21d8a69904)
+0010.271 (0) Saving backup status to database (elements: 8)
+0010.278 (0) Beginning creation of database dump (WordPress DB)
+0010.282 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+0010.303 (0) Table wp_options: Total expected rows (approximate): 169
+0010.392 (0) Table wp_options: Rows added in this batch (next record: 185): 168 (uncompressed bytes in this segment=887530) in 0.09 seconds
+0010.408 (0) Table wp_options: finishing file(s) (2, 228.6 KB)
+0010.416 (0) Table wp_users: Total expected rows (approximate): 1
+0010.421 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1382) in 0.00 seconds
+0010.434 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0010.440 (0) Table wp_usermeta: Total expected rows (approximate): 17
+0010.451 (0) Table wp_usermeta: Rows added in this batch (next record: 17): 17 (uncompressed bytes in this segment=1612) in 0.01 seconds
+0010.467 (0) Table wp_usermeta: finishing file(s) (2, 0.9 KB)
+0010.477 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0010.485 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0010.500 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0010.508 (0) Table wp_comments: Total expected rows (approximate): 1
+0010.517 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2222) in 0.01 seconds
+0010.529 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0010.540 (0) Table wp_links: Total expected rows (approximate): 0
+0010.545 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0010.558 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0010.566 (0) Table wp_postmeta: Total expected rows (approximate): 2
+0010.577 (0) Table wp_postmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=790) in 0.01 seconds
+0010.592 (0) Table wp_postmeta: finishing file(s) (2, 0.4 KB)
+0010.598 (0) Table wp_posts: Total expected rows (approximate): 4
+0010.610 (0) Table wp_posts: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=11076) in 0.01 seconds
+0010.625 (0) Table wp_posts: finishing file(s) (2, 3.4 KB)
+0010.633 (0) Table wp_term_relationships: Total expected rows (approximate): 1
+0010.642 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=702) in 0.01 seconds
+0010.655 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0010.665 (0) Table wp_term_taxonomy: Total expected rows (approximate): 1
+0010.677 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=926) in 0.01 seconds
+0010.694 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.4 KB)
+0010.707 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0010.719 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0010.736 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0010.744 (0) Table wp_terms: Total expected rows (approximate): 1
+0010.754 (0) Table wp_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=731) in 0.01 seconds
+0010.768 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0010.774 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_options.table.tmpr186.gz (1/12/fopen): adding to final database dump
+0010.792 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0010.796 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0010.799 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0010.802 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_usermeta.table.tmpr18.gz (5/12/fopen): adding to final database dump
+0010.805 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0010.809 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0010.812 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0010.815 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0010.818 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0010.821 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0010.825 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0010.828 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_postmeta.table.tmpr3.gz (13/12/fopen): adding to final database dump
+0010.832 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0010.835 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_posts.table.tmpr5.gz (15/12/fopen): adding to final database dump
+0010.839 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0010.842 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0010.845 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0010.849 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_term_taxonomy.table.tmpr2.gz (19/12/fopen): adding to final database dump
+0010.852 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0010.855 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0010.858 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0010.862 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_terms.table.tmpr2.gz (23/12/fopen): adding to final database dump
+0010.865 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0010.878 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db.gz: finished writing out complete database file (237.7 KB)
+0010.901 (0) Total database tables backed up: 12 (backup_2021-07-30-1101_boulangerie_e90df31d51d4-db.gz, size: 243525, sha1: 262ca60354ed6929cac740b400677e276f297b72, sha256: 8f999d28e029098197b26b6be6ff986e7df8aea9b3c626d3ff210a2304a1d3b8)
+0010.915 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.917 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.921 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.924 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.927 (0) backup_2021-07-30-1101_boulangerie_e90df31d51d4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.931 (0) Saving backup history. Total backup size: 11.7 MB
+0010.937 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0010.944 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.947 (0) No remote despatch: user chose no remote backup service
+0010.951 (0) Recording as successfully uploaded: backup_2021-07-30-1101_boulangerie_e90df31d51d4-plugins.zip
+0010.957 (0) Recording as successfully uploaded: backup_2021-07-30-1101_boulangerie_e90df31d51d4-themes.zip
+0010.962 (0) Recording as successfully uploaded: backup_2021-07-30-1101_boulangerie_e90df31d51d4-uploads.zip
+0010.968 (0) Recording as successfully uploaded: backup_2021-07-30-1101_boulangerie_e90df31d51d4-others.zip
+0010.974 (0) Recording as successfully uploaded: backup_2021-07-30-1101_boulangerie_e90df31d51d4-db.gz
+0010.984 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0010.987 (0) Number of backup sets in history: 1; groups (db): 1
+0010.991 (0) Examining (for databases) backup set with group_id=0, nonce=e90df31d51d4, datestamp=1627635715 (Jul 30 2021 09:01:55)
+0010.993 (0) This backup set is the backup set just made, so will not be deleted.
+0010.993 (0) Number of backup sets in history: 1; groups (files): 1
+0010.997 (0) Examining (for files) backup set with nonce=e90df31d51d4, datestamp=1627635715 (Jul 30 2021 09:01:55)
+0010.997 (0) This backup set is the backup set just made, so will not be deleted.
+0011.000 (0) This backup set is the backup set just made, so will not be deleted.
+0011.001 (0) This backup set is the backup set just made, so will not be deleted.
+0011.001 (0) This backup set is the backup set just made, so will not be deleted.
+0011.002 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.004 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0011.011 (0) Resume backup (e90df31d51d4, 0): finish run
+0011.018 (0) Decremented the semaphore (fd) by 1
+0011.023 (0) Semaphore (fd) unlocked
+0011.026 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0011.036 (0) The backup apparently succeeded and is now complete
+0011.040 (0) No email will/can be sent - the user has not configured an email address.
+0011.043 (0) La sauvegarde a apparemment réussi et est maintenant terminée

@@ -1,0 +1,148 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.hjqs-ml-wrapper{
+    padding: 20px 20px 50px 0;
+}
+.hjqs-ml-header{
+    background-color: #004669;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.hjqs-ml-header small{
+    font-size: 50%;
+    font-weight: lighter;
+}
+
+.hjqs-ml-header{
+    padding-top: 10px;
+}
+.hjqs-ml-header p.submit{
+    margin-top: 0;
+}
+.hjqs-ml-wrapper .hjqs-ml-title{
+    padding: 0 0 0 0;
+    color: white;
+}
+
+#hjqs-form-settings{
+    padding: 0;
+    min-height: 700px;
+    display: flex;
+    border-top: 0;
+}
+#hjqs-form-settings table * {
+    box-sizing: border-box;
+}
+
+
+#hjqs-form-settings .ui-tabs-nav{
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    min-width: 250px;
+    width: 250px;
+    margin-top: 0;
+}
+#hjqs-form-settings .ui-tabs-nav li{
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+}
+#hjqs-form-settings .ui-tabs-nav li a {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 105%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0.7em 1em;
+    display: block;
+    color: white;
+    position: relative;
+    text-decoration: none;
+    background-color: #2271b1;
+}
+#hjqs-form-settings .ui-tabs-active.ui-state-active a{
+    background-color: #ffffff;
+    color: #2271b1;
+}
+#hjqs-form-settings .ui-tabs-active.ui-state-active a::after {
+    right: 0;
+    border: solid 8px transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: #2271b1;
+    top: 50%;
+    margin-top: -8px;
+}
+.hjqs-wrapper-form-header code{
+    background-color: #23282e;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#hjqs-form-settings table{
+    padding: 0;
+    margin-top: 0;
+}
+#hjqs-form-settings table .hjqs-wrapper-form-header{
+    background-color: #007cba;
+    color: white;
+}
+#hjqs-form-settings table .hjqs-wrapper-form-header th{
+    font-size: 120%;
+    color: white;
+    min-width: 250px;
+}
+#hjqs-form-settings .hjqs-separator-row h3{
+    margin-bottom: 0;
+    border-bottom: 2px solid;
+    color: #2e7cba;
+}
+#hjqs-form-settings table .hjqs-wrapper-form-header td{
+    width: 100%;
+}
+#hjqs-form-settings table tr > *{
+    padding: 1em 1.4em;
+}
+#hjqs-form-settings .hjqs_ml-field > *{
+    width: 100%;
+}
+#hjqs-form-settings .hjqs_ml-field > label{
+    display: block;
+    padding: 5px 0 0 5px;
+    font-size: 80%;
+}
+#hjqs-form-settings .hjqs_ml-field input{
+
+}
+#hjqs-form-settings .hjqs_ml-choices-other > *{
+    display: block;
+    width: 100%;
+}
+#hjqs-form-settings .hjqs_ml-choices-other {
+    margin-top: 10px;
+}
+#hjqs-form-settings .hjqs_ml-choices-other > label{
+    padding: 5px 0 0 5px;
+    font-size: 80%;
+}
+
+.hjqs-ml-footer{
+    width: 100%;
+    text-align: right;
+}
+.hjqs-ml-footer p.submit{
+    display: inline-block;
+}
